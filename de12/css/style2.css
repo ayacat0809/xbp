@@ -64,3 +64,8 @@ blockquote{
 img{
     width: 400px;
 }
+iframe{
+    float: right;
+    margin-left: 0%;
+    width: 400px;
+}
