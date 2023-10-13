@@ -68,6 +68,13 @@ h2{
     color: #003399;
 }
 p{
-    font-size: 15px;
-    width: 1200px;
+    font-size: 20px;
+    width: 1000px;
+}
+#BUT{
+    font-size: 40px;
+    color: #d91e36;
+}
+#TOOMUCH{
+    font-size: 40px;
 }
