@@ -2,13 +2,85 @@
 <html lang="jp">
 <head>
     <title>20231016までのあやかねこの宿題</title>
-    <link rel="stylesheet" href="./css/style1.css">
+    <link rel="stylesheet" href="./css/style2.css">
 </head>
 <body>
-    <h1>20231016までのあやかねこの宿題</h1>
+    <div>
+    <h1>Fab Laboでピンセットをプリントしてみよう</h1>
 
     <a href="https://kuxbp.github.io/xbp/xbp2023/digital_fabrication/02_3dprinting.html">第２回授業内容・課題概要</a>
+    </div>
+    <div>
+        <h2>作品名：カトラリーピンセット</h2>
+        <p>「お菓子をお上品に食べたい！」という思いからこのピンセットは生まれました。<br>
+        手が汚れない、指だと届かない場所にもピンセットなら届く！<br>
+        お菓子を食べている時、もう小指でスマホをさわらなくていい！そんなピンセットです。</p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/cnHhS0lxQ4I?si=nSAXnQeLH2lB0bJW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        
+        <h2>発想にいたるまでのストーリー</h2>
+        <img src="./images/omurice.jpg">
+        <img src="./images/post-it.jpg">
+        <img src="./images/tong.jpg">
+        <p>アイデアの発散Workをしたとき(2023.09.29)、
+            グミなどのお菓子をつかむ用のピンセットがあったら
+            手が汚れないしいいんじゃないかなと思ってふせんを作りました。<br>
+            しかしそれだけではつまらないので、
+            ピンセットの先っちょのほうをナイフとフォークみたいにしたらかわいいかなと考えて、
+            このスケッチを描いてみました。</p>
+        
+            <h2>最初のプリント</h2>
+        <img src="./images/pinset1.jpg">
+        <img src="./images/pinset1_CAD1.jpg">
+        <a href="./files/pinset/pinset0.stl">pinset0.stl</a>
+        <p>これは3Dプリンターを使って印刷した記念すべき第1作目のピンセットです。<br>プリントには6分ほどかかりました。<br>
+            反省点はサイズが少し小さすぎること、厚みが足りずすぐ折れそうなことでした。<br>
+            良い点はピンセットとして作用することです。きちんと物がつかめるようにしなってくれました。<br>
+            この時はまだナイフとフォークの部分は作らず（というか作れず）、<br>3Dプリンターの操作方法を知る目的でプリントしました。</p>
+        
+            <h2>2回目のプリント</h2>
+        <img src="./images/pinset2.jpg">
+        <img src="./images/pinset2_knifeside.jpg">
+        <img src="./images/pinset2_CAD2.jpg">
+        <a href="./files/pinset/pinset1.stl">pinset1.stl</a>
+        <p>なんとかイメージに技術が追いついてきて、ナイフとフォークを無事デザイン。<br>こちらはプリントに9分かかりました。<br>
+            大きさは私の理想の大きさになりました！前回同様、しなるので物をつかむことも可能です。</p>
+        <p id="BUT">しかし！！</p>
+        <p>とんでもない失敗をしていたことにここで気づきます…</p>
+        <img src="./images/pinset2_mistake.jpg">
+        <p>実際に掴んでみるとよくわかると思います。何かがおかしいと思いませんか…？<br>
+        そう、何を隠そうこのピンセットは、<br></p>
+        <p id="BUT">ナイフとフォークの位置が逆になっているのです T^T</p>
+        <p>プリントしてみて初めて気づいたことでした。
+            <br>「あれ、そういえばナイフって右手で持つよな？」と思ってしまってはもう遅い…<br>
+            「左利き用だし！！」と言いたいところですが、自分の中で違和感がぬぐえないためすぐさま修正を施します。</p>
+        
+            <h2>3回目のプリント・完成♡</h2>
+            <img src="./images/pinset4.jpg">
+            <img src="./images/pinset4_fork.jpg">
+            <img src="./images/pinset4_CAD1.jpg">
+            <a href="./files/pinset/pinset6.stl">pinset6.stl</a>
+            <p>ナイフとフォークの位置は修正し、フォークはミツマタにしてみました。サイズも若干小さく調整しています。およそ８分でプリントできました。満足のいく結果です＾＾</p>
 
-    <div></div>
+            <h2>全体を通して学んだこと</h2>
+        <p>2回目のプリントで、ナイフとフォークの位置が逆なことに気づいたことが印象的でした。
+            実際にやってみないと分からないことはあると以前から信じていましたが、このような初歩的ミスにもモデリングの時点で気づかなかったのは驚きでした。サポーターをなるべく作らないようにしようとして、ナイフの押し出しを上方向にしていたことが見落としの原因でした。
+            やはり実際に作ってみることは自分の想像以上に重要だということが身をもって理解できました。3Dプリンターの存在意義の一つはまさにこのような、ミスの早期発見のためだとわかりました。<br>
+            難しかったのはサイズの調整です。Fusion360の「尺度」で何度も大きさを調整しました。
+            <br>また、今回の課題は、友人の協力がなかったら成し遂げられませんでした。友人との協力もこれからの学びで大切なことだと思いました。
+        </p>
+        <h2>参考にしたもの</h2>
+        <ul>
+            <li><a href="https://youtu.be/m7W_qmykRpI?si=G6lib5OXLBg990rL" target="_blank">【入門・初心者向け】これからFusion360をはじめる人へ～コップをつくってみよう！</a></li>
+            <li><a href="https://youtu.be/ADO85z06FWA?si=u0g57AX2SQgf36Hk" target="_blank">【徹底解説】Fusion360-スケッチ（線分、トリム、スケッチ寸法、拘束、プロジェクト、交差、スケッチパレット、メッシュ断面など）</a></li>
+            <li><a href="https://youtu.be/dLgB3QkQNHc?si=VD-hpZSjtWfY9Giu" target="_blank">【超入門Fusion360 #4】なんとなく使ってる？！１２の拘束を練習しよう</a></li>
+            <li><a href="https://youtu.be/-fJqBttDqEk?si=gHsNYLpdmL4ccQ3B" target="_blank">Fusion 360 絶対に覚えて欲しい4つのコマンド！「押し出し」「回転」「スイープ」「ロフト」</a></li>
+            <li><a href="https://youtu.be/4uxLm9oXnng?si=J2S8bIbEVktaM_Av" target="_blank">【Fusion360】 3D CAD初心者向け！まずはこれだけ覚えよう！（基本操作編）</a></li>
+        </ul>
+        <p>↓↓配色の参考にしたサイトとアプリ(iOS)です。↓↓</p>
+        <ul>
+            <li><a href="https://colordrop.io/" target="_blank">https://colordrop.io/</a>　色をクリックするだけでカラーコード（16進数）がコピーできるのでとっても便利！</li>
+            <li><a href="https://apps.apple.com/jp/app/irodori-color-schemes/id1422593381?mt=8" target="_blank">https://apps.apple.com/jp/app/irodori-color-schemes/id1422593381?mt=8</a>　身の回りのどんなものもカラーコードに変えてくれるのでとても楽しい＾＾</li>
+        </ul>
+    </div>
 </body>
 </html>
