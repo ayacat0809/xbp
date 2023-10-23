@@ -27,8 +27,9 @@ html, body {
 	color: #393939;
     margin-left: 15px;
     margin-bottom: 40px;
-	background: #efefef;
+	background: #F2E9E4;
 }
+
 h1{
     text-indent: 0em;
 }
@@ -58,14 +59,59 @@ span.blackback{
 /* 以下自作 */
 
 img{
-    width: 400px;
-}
-iframe{
-    float: right;
-    width: 400px;
+    width: 700px;
+    margin-right: 20px;
 }
 
 .gaiyou{
     background-color: #CACFD2;
-    padding: 15px;
+    padding: 20px;
+}
+.title{
+}
+
+.sub{
+    background-color: #A7C5BD;
+    padding: 10px;
+    border-radius: 15px;
+    padding-left: 15px;
+}
+nav{
+    width: 90%;
+}
+ul{
+    display: flex;
+}
+li{
+    list-style: none;
+    font-size: 25px;
+    background-color: #2F3A59;
+    width: 100%;
+    top: 0;
+    z-index: 10000;
+    padding: 10px;
+    height: 50px;
+    
+}
+#ele{
+    color: #F2E9E4;
+}
+#ele:visited{
+    color: #F2E9E4;
+}
+#ele:hover{
+    color: #F9A826;
+}
+#back{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    color: #2F3A59;
+    border-radius: 10px;
+}
+#back:visited{
+    color: #2F3A59;
+}
+#back:hover{
+    color: #F9A826;
 }
