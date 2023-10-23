@@ -61,7 +61,6 @@ span.blackback{
 img{
     width: 700px;
     margin-right: 20px;
-    height: 340px;
 }
 
 .gaiyou{
@@ -77,6 +76,13 @@ img{
     padding: 10px;
     border-radius: 15px;
     padding-left: 15px;
+}
+.subsub{
+    background-color: #A9CCE3;
+    padding: 10px;
+    border-radius: 15px;
+    padding-left: 15px;
+
 }
 nav{
     width: 90%;
