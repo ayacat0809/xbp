@@ -101,6 +101,11 @@ li{
     height: 50px;
     
 }
+a{
+    display: flex;
+    justify-content: center;
+
+}
 #ele{
     color: #F2E9E4;
 }
