@@ -19,17 +19,17 @@ for i in range(1,6):
     if expect=="high" or "low" :
         if expect=="high" :
             if a>b :
-                print("あなたの負けです")
+                print("あなたの負けです(T~T )")
                 lose=lose+1
             else:
-                print("あなたの勝ちです")
+                print("あなたの勝ちです( ^_^)b")
                 win=win+1
         if expect=="low" :
             if a>b :
-                print("あなたの勝ちです")
+                print("あなたの勝ちです( ^_^)b")
                 win=win+1
             else:
-                print("あなたの負けです")
+                print("あなたの負けです(T~T )")
                 lose=lose+1
 
 # ＝＝＝＝＝＝＝＝＝繰り返しおわり＝＝＝＝＝＝＝＝＝＝＝＝＝
