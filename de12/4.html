@@ -1,17 +1,65 @@
 <!DOCTYPE html>
 <html lang="jp">
   <head>
-    <title>20231023までのあやかねこの宿題</title>
+    <title>20231030までのあやかねこの宿題</title>
     <link rel="stylesheet" href="./css/style4.css" />
   </head>
   <body>
     <header></header>
     <div class="container">
+      <h1>Pythonを使ってゲームを作ってみよう</h1>
+      <h2>作ったゲームについて</h2>
+      <p>
+        私が作ったゲームは「High or
+        Low」です。これはトランプゲームの一種で、とてもシンプルなゲームです。<br />
+      </p>
+      <h2>作ってみた感想</h2>
+      <p></p>
       <pre>
-            <code>
-                
-            </code>
-        </pre>
+      <code>
+          <ol style="list-style:decimal-leading-zero outside;in-left:0;padding-left:36px;margin:0;background-color:#EEF;color:#000;">
+          <li style="background-color:#EFF;">win=0</li>
+          <li style="background-color:#EEF;">lose=0</li>
+          <li style="background-color:#EFF;">draw=0</li>
+          <li style="background-color:#EEF;"># ＝＝＝＝＝＝＝＝＝繰り返しはじめ＝＝＝＝＝＝＝＝＝＝＝＝＝</li>
+          <li style="background-color:#EFF;"># 5回する</li>
+          <li style="background-color:#EEF;">for i in range(1,6):</li>
+          <li style="background-color:#EFF;">&nbsp;&nbsp;&nbsp;&nbsp;print("==================== ",i,"回目 ====================")</li>
+          <li style="background-color:#EEF;"># 1めくり目</li>
+          <li style="background-color:#EFF;">&nbsp;&nbsp;&nbsp;&nbsp;import random</li>
+          <li style="background-color:#EEF;">&nbsp;&nbsp;&nbsp;&nbsp;a = random.randint(1, 13)</li>
+          <li style="background-color:#EFF;">&nbsp;&nbsp;&nbsp;&nbsp;print(a,"が出ました。次のカードはこれよりhigh？low？")</li>
+          <li style="background-color:#EEF;"># high? low?</li>
+          <li style="background-color:#EFF;">&nbsp;&nbsp;&nbsp;&nbsp;expect=input("小文字の英語で記入してください&gt;&gt;&gt;")</li>
+          <li style="background-color:#EEF;"># 2めくり目</li>
+          <li style="background-color:#EFF;">&nbsp;&nbsp;&nbsp;&nbsp;import random</li>
+          <li style="background-color:#EEF;">&nbsp;&nbsp;&nbsp;&nbsp;b = random.randint(1, 13)</li>
+          <li style="background-color:#EFF;">&nbsp;&nbsp;&nbsp;&nbsp;print(b,"が出ました。")</li>
+          <li style="background-color:#EEF;"># 勝ちor負け</li>
+          <li style="background-color:#EFF;">&nbsp;&nbsp;&nbsp;&nbsp;if expect=="high" or "low" or "draw":</li>
+          <li style="background-color:#EEF;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if expect=="high" :</li>
+          <li style="background-color:#EFF;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if a&gt;b :</li>
+          <li style="background-color:#EEF;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;print("あなたの負けです(T~T )")</li>
+          <li style="background-color:#EFF;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;lose=lose+1</li>
+          <li style="background-color:#EEF;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if a&lt;b:</li>
+          <li style="background-color:#EFF;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;print("あなたの勝ちです( ^_^)b")</li>
+          <li style="background-color:#EEF;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;win=win+1</li>
+          <li style="background-color:#EFF;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if expect=="low" :</li>
+          <li style="background-color:#EEF;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if a&gt;b :</li>
+          <li style="background-color:#EFF;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;print("あなたの勝ちです( ^_^)b")</li>
+          <li style="background-color:#EEF;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;win=win+1</li>
+          <li style="background-color:#EFF;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if a&lt;b:</li>
+          <li style="background-color:#EEF;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;print("あなたの負けです(T~T )")</li>
+          <li style="background-color:#EFF;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;lose=lose+1</li>
+          <li style="background-color:#EEF;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if a==b :</li>
+          <li style="background-color:#EFF;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;print("ドロー！( ◎_◎ )")</li>
+          <li style="background-color:#EEF;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;draw=draw+1</li>
+          <li style="background-color:#EFF;"># ＝＝＝＝＝＝＝＝＝繰り返しおわり＝＝＝＝＝＝＝＝＝＝＝＝＝</li>
+          <li style="background-color:#EEF;">print("==================== Finished! ====================")</li>
+          <li style="background-color:#EFF;">print("あなたが勝った回数は",win,"回!負けた回数は",lose,"回!ドローの回数は",draw,"回でした!Have a nice day!")</li>
+          </ol>
+      </code>
+      </pre>
     </div>
   </body>
 </html>
