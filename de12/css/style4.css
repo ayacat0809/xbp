@@ -12,16 +12,25 @@ body {
   color: #393939;
   margin-left: 15px;
   margin-bottom: 40px;
-  background: #f2e9e4;
+  background: #fff1e0;
   width: 1500px;
 }
 
 h1 {
   text-indent: 0em;
+  background-color: #b2d7d5;
+  color: #008080;
+  padding: 10px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
 }
 h2 {
   margin-left: 1em;
   margin-top: 1em;
+  font-size: 40px;
+  color: #f15a24;
+  border-bottom: dotted 10px #ffc48c;
 }
 h3 {
   margin-left: 2em;
@@ -35,4 +44,15 @@ p {
   margin-left: 3em;
   font-size: 25px;
   padding: 10px;
+}
+a {
+  font-size: 25px;
+}
+#tothetop {
+  display: flex;
+  justify-content: center;
+}
+img,
+iframe {
+  width: 700px;
 }
