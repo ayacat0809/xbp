@@ -10,33 +10,41 @@
       <h1>ライブラリを使ってPythonでプログラミングしてみよう</h1>
 
       <h2>作ろうと思ったプログラムについて</h2>
-      <p>
-        これまで演習ノートを新しく作るたびに、「index.html」にli要素を追加していました。それが面倒だったので、Pythonを使ってこの作業の自動化ができたらいいなと思ってプログラミングしようと思いました。
-      </p>
+      <p>これまで演習ノートを新しく作るたびに、「index.html」にli要素を追加していました。それが面倒だったので、Pythonを使ってこの作業の自動化ができたらいいなと思ってプログラミングしようと思いました。</p>
 
       <h2>2023.11.02　HTMLから任意の要素を抽出する</h2>
       <img src="./images/python2/2023.11.02 print(ul).png" alt="" />
       <p>
-        <a href="https://amzn.asia/d/1qIwMq1"
-          >「シゴトがはかどる Python自動処理の教科書」クジラ飛行机　著</a
-        ><br />この本はMMC1Fナレッジコアにある本です（請求記号：D007.64-460）。p167-169を参考に作ってみました。画像はp169を参考にした実行結果です。きちんととりだしたいul要素が表示されています。
+        <a href="https://amzn.asia/d/1qIwMq1">「シゴトがはかどる Python自動処理の教科書」クジラ飛行机　著</a>
+        <br />
+        この本はMMC1Fナレッジコアにある本です（請求記号：D007.64-460）。p167-169を参考に作ってみました。画像はp169を参考にした実行結果です。きちんととりだしたいul要素が表示されています。
       </p>
 
       <h2>2023.11.02　HTMLに要素を追加したい…</h2>
       <p>
-        次は抽出した場所に要素を追加します。<br />
-        <a href="https://water2litter.net/rum/post/python_bs4_append/index.html"
-          >「PythonのBeautifulSoup4でHTMLに要素を追加する」</a
-        >このサイトを参考にしてすすめてみました。しかしここがつまづきどころでした。URLをPythonのなかに組み込むには気を付けなければいけないことが多数あるようです。<br /><a
-          href="https://yaromai.jp/invalid-argument/"
-          >こちらのサイト</a
-        >からr文字列というものを知りました。「r」をURLもしくはパスの前に置くと、以降の文字列が特殊文字として認識されなくなるのだそう。早速パスの前に「r」を置いてみます。
+        次は抽出した場所に要素を追加します。
+        <br />
+        <a href="https://water2litter.net/rum/post/python_bs4_append/index.html">「PythonのBeautifulSoup4でHTMLに要素を追加する」</a>
+        このサイトを参考にしてすすめてみました。しかしここがつまづきどころでした。URLをPythonのなかに組み込むには気を付けなければいけないことが多数あるようです。
+        <br />
+        <a href="https://yaromai.jp/invalid-argument/" target="_blank">こちらのサイト</a>
+        からr文字列というものを知りました。「r」をURLもしくはパスの前に置くと、以降の文字列が特殊文字として認識されなくなるのだそう。早速パスの前に「r」を置いてみます。
+        <br />
+        画像では試しに
+        <a href="https://amzn.asia/d/1qIwMq1">Python自動処理の教科書</a>
+        のリンクを追加しようとしています。
       </p>
       <img src="./images/python2/2023.11.02 r.png" alt="" />
       <p>まだエラーがでます。エラーコードをコピペして検索にかけてみます…</p>
 
-      <h2>インストールしてみた外部ライブラリとその実行結果</h2>
-      <p></p>
+      <h2>他にインストールしてみた外部ライブラリとその実行結果</h2>
+      <ul>
+        <li><a href="https://pypi.org/project/mahjong/">mahjong</a></li>
+        <p>
+          <a href="https://qiita.com/FJyusk56/items/8189bcca3849532d095f">こちらのサイト</a>
+          を参考にして動かしてみました。和了り形の翻数、符数と点数を計算してくれるものです。
+        </p>
+      </ul>
       <a href="#top" id="tothetop">TOPへ</a>
     </div>
   </body>

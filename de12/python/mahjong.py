@@ -25,11 +25,12 @@ def print_hand_result(hand_result):
           print(fu_item)
      print('')
 
-#アガリ形(上と同じ)
-tiles = TilesConverter.string_to_136_array(honors='55666777' , sou='789' , pin='123')
 
-#アガリ牌(上と同じ)
-win_tile = TilesConverter.string_to_136_array(honors='7')[0]
+#アガリ形(man=マンズ, pin=ピンズ, sou=ソーズ, honors=字牌)
+tiles = TilesConverter.string_to_136_array(man='234555', pin='555', sou='22555')
+
+#アガリ牌(ソーズの5)
+win_tile = TilesConverter.string_to_136_array(sou='5')[0]
 
 #鳴き(なし)
 melds = None
@@ -37,10 +38,9 @@ melds = None
 #ドラ(なし)
 dora_indicators = None
 
-#オプション(ツモを追加,Falseだとロン)
+#オプション(なし)
 config = None
 
 #計算
 result = calculator.estimate_hand_value(tiles, win_tile, melds, dora_indicators, config)
 print_hand_result(result)
-

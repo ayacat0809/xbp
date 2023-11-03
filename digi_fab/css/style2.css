@@ -26,7 +26,7 @@ body {
   color: #393939;
   margin-left: 15px;
   margin-bottom: 40px;
-  background: #bbdcff;
+  background: #c3cfe2;
 }
 h1 {
   text-indent: 0em;
@@ -53,7 +53,7 @@ span.blackback {
 /* 以下自作 */
 
 img {
-  width: 400px;
+  width: 700px;
   border-radius: 15px;
 }
 
@@ -61,12 +61,12 @@ h1 {
   background-color: #5d576b;
   width: 1400px;
   padding: 15px;
-  color: #f2e8cf;
+  color: #f9a826;
   border-radius: 15px;
 }
 h2 {
   color: #3c4f6d;
-  border-bottom: dotted 10px #f7b733;
+  border-bottom: dotted 10px #2f7f9e;
   width: 1400px;
   padding: 15px;
   border-radius: 15px;
@@ -74,17 +74,10 @@ h2 {
 }
 p {
   font-size: 25px;
-  width: 1000px;
-}
-#BUT {
-  font-size: 40px;
-  color: #d91e36;
-}
-#TOOMUCH {
-  font-size: 40px;
+  width: 1300px;
 }
 a {
-  font-size: 20px;
+  font-size: 25px;
 }
 ul {
   list-style: square;
