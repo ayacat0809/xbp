@@ -58,10 +58,10 @@ img {
 }
 
 h1 {
-  background-color: #5d576b;
+  background-color: #efefef;
   width: 1400px;
   padding: 15px;
-  color: #f9a826;
+  color: #3c4f6d;
   border-radius: 15px;
 }
 h2 {
@@ -69,7 +69,6 @@ h2 {
   border-bottom: dotted 10px #2f7f9e;
   width: 1400px;
   padding: 15px;
-  border-radius: 15px;
   font-size: 30px;
 }
 p {
@@ -80,5 +79,12 @@ a {
   font-size: 25px;
 }
 ul {
-  list-style: square;
+  list-style: square 10px;
+  font-size: 25px;
+  color: #ff4500;
+  width: 1000px;
+}
+#tothetop {
+  display: flex;
+  justify-content: center;
 }

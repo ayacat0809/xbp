@@ -1,6 +1,8 @@
 from bs4 import BeautifulSoup
+import requests
 
 url = r"file:///C:/Users/takep/mygit/xbp/de12/index.html"
+response = requests.get(url)
 
 with open(url , mode="rt" , encoding="utf-8") as f:
     soup = BeautifulSoup(f.read() , "html.parser")
