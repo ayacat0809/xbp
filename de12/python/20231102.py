@@ -14,13 +14,6 @@ nt.string = 'Python自動処理の教科書'
 # 追加
 soup.find(url).append(soup.new_tag)
 
-# with open( "index.html" , encoding='uft-8') as fp:
-#     html_str = fp.read()
-
-#     soup = BeautifulSoup(html_str , 'html.5lib')
-
-
-
 # nt = soup.new_tag("li" , href='index.html')
 # nt.string = 'aiueo'
 
