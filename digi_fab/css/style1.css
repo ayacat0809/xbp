@@ -1,91 +1,103 @@
 @charset "utf-8";
 /* 冒頭でimport */
-@import url('https://fonts.googleapis.com/css?family=Raleway:700&display=swap');
-@import url('https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c:400,700&display=swap&subset=japanese');
+@import url("https://fonts.googleapis.com/css?family=Raleway:700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c:400,700&display=swap&subset=japanese");
 /* フォントを指定したいところで */
 
-logo img{
-    border-radius: 50%;
-    width: 150px;
-    height: 150px;
-    object-fit: cover; /* 画像のトリミング */
+logo img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  object-fit: cover; /* 画像のトリミング */
 }
 
-logotohome img{
-    border-radius: 70%;
-    width: 70px;
-    height: 70px;
-    object-fit: cover; /* 画像のトリミング */
+logotohome img {
+  border-radius: 70%;
+  width: 70px;
+  height: 70px;
+  object-fit: cover; /* 画像のトリミング */
 }
-
-
 
 /* ========== common ========== */
-html, body {
-	font-size: 16px;
-	font-family: sans-serif;
-	color: #393939;
-    margin-left: 15px;
-    margin-bottom: 40px;
-	background: #F8E2A7;
+html,
+body {
+  font-size: 16px;
+  font-family: sans-serif;
+  color: #393939;
+  margin-left: 15px;
+  margin-bottom: 40px;
+  background: #f8e2a7;
 }
-h1{
-    text-indent: 0em;
+h1 {
+  text-indent: 0em;
 }
-h2{
-    margin-top: 1em;
+h2 {
+  margin-top: 1em;
 }
-h3{
-    margin-left: 2em;
+h3 {
+  margin-left: 2em;
 }
-div{
-    margin-top: 1em;
-    margin-left: 3em;
+div {
+  margin-top: 1em;
+  margin-left: 3em;
 }
-p{
-    margin-left: 3em;
+p {
+  margin-left: 3em;
 }
-span.blackback{
-    text-indent: 3em;
-    background: #393939;
-    color: #efefef;
+span.blackback {
+  text-indent: 3em;
+  background: #393939;
+  color: #efefef;
 }
 
 /* 以下自作 */
 
-img{
-    width: 400px;
-    border-radius: 15px;
+img {
+  width: 400px;
+  border-radius: 15px;
 }
 
-h1{
-    background-color: #F9A7B0;
-    width: 1400px;
-    padding: 15px;
-    color:#8b262a;
-    border-radius: 15px;
+h1 {
+  background-color: #f9a7b0;
+  width: 1400px;
+  padding: 15px;
+  color: #8b262a;
+  border-radius: 15px;
 }
-h2{
-    color: #003399;
-    background-color: #a7d8f2;
-    width: 1400px;
-    padding: 15px;
-    border-radius: 15px;
+h2 {
+  color: #003399;
+  background-color: #a7d8f2;
+  width: 1400px;
+  padding: 15px;
+  border-radius: 15px;
 }
-p{
-    font-size: 20px;
-    width: 1000px;
+p {
+  font-size: 20px;
+  width: 1000px;
 }
-#BUT{
-    font-size: 40px;
-    color: #d91e36;
+#BUT {
+  font-size: 40px;
+  color: #d91e36;
 }
-#TOOMUCH{
-    font-size: 40px;
+#TOOMUCH {
+  font-size: 40px;
 }
-a{
-    font-size:20px ;
+a {
+  font-size: 20px;
 }
-ul{
-    list-style: square;
+ul {
+  list-style: square;
+}
+nav ul li {
+  display: inline-block;
+  text-align: center;
+  list-style-type: none;
+  padding: 5px;
+}
+
+a {
+  color: #3c4f6d;
+}
+a:hover {
+  color: #ff4500;
 }

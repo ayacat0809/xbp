@@ -56,3 +56,16 @@ img,
 iframe {
   width: 700px;
 }
+nav ul li {
+  display: inline-block;
+  text-align: center;
+  list-style-type: none;
+  padding: 5px;
+}
+
+a {
+  color: #3c4f6d;
+}
+a:hover {
+  color: #ff4500;
+}

@@ -88,3 +88,16 @@ ul {
   display: flex;
   justify-content: center;
 }
+nav ul li {
+  display: inline-block;
+  text-align: center;
+  list-style-type: none;
+  padding: 5px;
+}
+
+a {
+  color: #3c4f6d;
+}
+a:hover {
+  color: #ff4500;
+}
