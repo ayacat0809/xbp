@@ -69,3 +69,7 @@ a {
 a:hover {
   color: #ff4500;
 }
+em {
+  color: #f15a24;
+  border-bottom: double #f15a24;
+}
