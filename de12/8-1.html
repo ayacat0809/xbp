@@ -5,7 +5,7 @@
     <link rel="stylesheet" href="./css/style8-1.css" />
   </head>
   <body>
-    <header>
+    <header id="top">
       <nav>
         <ul class="nav">
           <li><a href="../index.html" id="index">ポートフォリオ一覧へ</a></li>
@@ -15,7 +15,7 @@
       </nav>
     </header>
     <h1>出力したデータ集</h1>
-    <div class="container" id="top">
+    <div class="container">
       <div id="shuku">
         <h2>縮刷版（1948-1983）</h2>
         <h3>１回目</h3>
@@ -35,16 +35,40 @@
         <h2>記事（1985-2020）</h2>
         <h3>１回目</h3>
         <ul>
-          <li><a href="./files/データマイニング/記事1985-2020/1_サンバースト.html">サンバースト</a></li>
-          <li><a href="./files/データマイニング/記事1985-2020/1_共起ネットワーク.html">共起ネットワーク</a></li>
-          <li><a href="./files/データマイニング/記事1985-2020/1_単語頻出.html">単語頻出</a></li>
+          <li><a href="./files/データマイニング/記事1985-2020/1_サンバースト.html" target="_blank">サンバースト</a></li>
+          <li><a href="./files/データマイニング/記事1985-2020/1_共起ネットワーク.html" target="_blank">共起ネットワーク</a></li>
+          <li><a href="./files/データマイニング/記事1985-2020/1_単語頻出.html" target="_blank">単語頻出</a></li>
         </ul>
-        <h3>2回目</h3>
+        <h3>２回目</h3>
         <ul>
-          <li><a href="./files/データマイニング/記事1985-2020/2_サンバースト.html">サンバースト</a></li>
-          <li><a href="./files/データマイニング/記事1985-2020/2_共起ネットワーク.html">共起ネットワーク</a></li>
-          <li><a href="./files/データマイニング/記事1985-2020/2_単語頻出.html">単語頻出</a></li>
+          <li><a href="./files/データマイニング/記事1985-2020/2_サンバースト.html" target="_blank">サンバースト</a></li>
+          <li><a href="./files/データマイニング/記事1985-2020/2_共起ネットワーク.html" target="_blank">共起ネットワーク</a></li>
+          <li><a href="./files/データマイニング/記事1985-2020/2_単語頻出.html" target="_blank">単語頻出</a></li>
         </ul>
+        <h3>３回目</h3>
+        <ul>
+          <li><a href="./files/データマイニング/記事1985-2020/3_サンバースト.html">サンバースト</a></li>
+          <li><a href="./files/データマイニング/記事1985-2020/3_共起ネットワーク.html">共起ネットワーク</a></li>
+          <li><a href="./files/データマイニング/記事1985-2020/3_単語頻出.html">単語頻出</a></li>
+        </ul>
+      </div>
+      <div>
+        <p>１回目：stop_n_top = 5 , stop_min_freq = 3 , min_edge_frequency = 3</p>
+        <p>
+          ２回目：stop_n_top = 10 , stop_min_freq = 3 , min_edge_frequency = 3
+          <br />
+          　　　　stopwords追加　".","%","％","ない","たち","これ","的"
+          <br />
+          　　　　カスタム名詞追加　専売公社,会議,会社,未成年者,部分,自分
+        </p>
+        <p>
+          ３回目：stop_n_top = 10 , stop_min_freq = 6 , min_edge_frequency = 3
+          <br />
+          　　　　stopwords追加　".","%","％","ない","たち","これ","的"
+          <br />
+          　　　　カスタム名詞追加　専売公社,会議,会社,未成年者,部分,自分
+        </p>
+        <p>※課題で使用した画像はどれも２回目のものです</p>
       </div>
     </div>
     <a href="#top" id="tothetop">TOPへ</a>
