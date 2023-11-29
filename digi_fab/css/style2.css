@@ -101,3 +101,12 @@ a {
 a:hover {
   color: #ff4500;
 }
+
+#colored {
+  width: 300px;
+  height: 500px;
+}
+iframe {
+  width: 1000px;
+  height: 500px;
+}
