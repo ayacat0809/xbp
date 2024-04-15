@@ -62,7 +62,9 @@ table {
 
 /*画像全般の設定*/
 img {
-  width: 600px;
+  width: 900px;
+  margin: 0 auto;
+  display: block;
 }
 
 #youtube{
