@@ -28,10 +28,10 @@ body {
 }
 
 /*画面幅900px以上の追加指定*/
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 700px) {
   html,
   body {
-    font-size: 16px; /*基準となるフォントサイズ。*/
+    font-size: 20px; /*基準となるフォントサイズ。*/
   }
 } /*追加指定ここまで*/
 
@@ -62,10 +62,11 @@ table {
 
 /*画像全般の設定*/
 img {
-  border: none;
-  max-width: 100%;
-  height: auto;
-  vertical-align: middle;
+  width: 600px;
+}
+
+#youtube{
+  width: 100px;
 }
 
 /*videoタグ*/
@@ -75,7 +76,10 @@ video {
 
 /*iframeタグ*/
 iframe {
-  width: 100%;
+  margin: 0 auto;
+  display: block;
+  height: 900px;
+  width: 1600px;
 }
 
 /*他*/
@@ -222,6 +226,8 @@ ul.slick-dots li.slick-active button {
 main {
   padding: 5%; /*ブロック内の余白*/
 }
+
+
 
 /*mainブロック内のh2*/
 main h2 {
